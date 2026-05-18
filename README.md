@@ -1,8 +1,8 @@
 # Tome
 
-Tome is a personal Android client for [Audiobookshelf](https://github.com/advplyr/audiobookshelf).
+Tome is an Android client for [Audiobookshelf](https://github.com/advplyr/audiobookshelf).
 
-This repository is a personal fork of Lissen, adapted for my own use. It is not affiliated with the official Audiobookshelf app.
+This repository is a fork of Lissen, adapted for my own use. It is not affiliated with the official Audiobookshelf app.
 
 ## Current Focus
 
