@@ -37,7 +37,6 @@
     <string name="the_offline_library_is_empty">Zatím žádné uložené knihy</string>
     <string name="audiobookshelf_server_is_required">Je vyžadován Audiobookshelf server</string>
     <string name="no_internet_connection">Žádné internetové připojení</string>
-    <string name="app_crach_toast">Omlouváme se za pád aplikace\nZáznamy chyb byly odeslány na analýzu</string>
     <string name="playback_speed_title">Rychlost přehrávání</string>
     <string name="color_scheme_follow_system">Systém</string>
     <string name="color_scheme_light">Světlé</string>
@@ -105,12 +104,10 @@
     <string name="notification_content_caching_title">Obsah se ukládá do mezipaměti</string>
     <string name="notification_content_caching_error_title">Uložení obsahu do mezipaměti selhalo</string>
     <string name="notification_content_caching_error_description">Pár souborů nebylo uloženo</string>
-    <string name="login_error_lissen_auth_scheme_must_be_whitelisted">Schéma %1$s://%2$s není povolenou URI adresou přesměrování v nastavení serveru</string>
-    <string name="login_error_lissen_auth_failed">Autorizace se nepovedla. Prosím, zkontrolujte nastavení serveru</string>
-    <string name="login_error_lissen_not_found">URL adresa nenalezena. Zkontrolujte nastavení serveru</string>
+    <string name="login_error_tome_auth_scheme_must_be_whitelisted">Schéma %1$s://%2$s není povolenou URI adresou přesměrování v nastavení serveru</string>
+    <string name="login_error_tome_auth_failed">Autorizace se nepovedla. Prosím, zkontrolujte nastavení serveru</string>
+    <string name="login_error_tome_not_found">URL adresa nenalezena. Zkontrolujte nastavení serveru</string>
     <string name="login_screen_open_id_button">Přihlásit pomocí OpenID</string>
-    <string name="source_code_on_github_title">Zdrojový kód na GitHub</string>
-    <string name="source_code_on_github_subtitle">Nahlásit problém nebo navrhnout vylepšení</string>
     <string name="settings_screen_library_ordering_title">Řazení knihovny</string>
     <string name="settings_screen_library_ordering_title_option">Název</string>
     <string name="settings_screen_library_ordering_author_option">Autor</string>
@@ -139,8 +136,6 @@
     <string name="playing_item_details_time_remaining">Zbývající čas</string>
     <string name="settings_screen_advanced_preferences_title">Pokročilé nastavení</string>
     <string name="settings_screen_advanced_preferences_description">Nastavení přeskakování, proxy hlaviček nebo zvuku</string>
-    <string name="settings_screen_crash_report_title">Hlášení pádů</string>
-    <string name="settings_screen_crash_report_description">Odesílat hlášení při pádu aplikace</string>
     <string name="settings_screen_software_codecs_enabled_title">Vynutit softwarové dekódování</string>
     <string name="settings_screen_software_codecs_enabled_description">Použít softwarové kodeky pro audio</string>
     <string name="settings_download_automatically_title">Stahovat automaticky</string>

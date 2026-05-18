@@ -28,8 +28,23 @@ ksp {
   arg("room.schemaLocation", "$projectDir/schemas")
 }
 
+fun gitCommitHash(): String {
+  return try {
+    val process = ProcessBuilder("git", "rev-parse", "--short", "HEAD")
+      .redirectErrorStream(true)
+      .start()
+
+    val output = process.inputStream.bufferedReader().use { it.readText().trim() }
+    val exitCode = process.waitFor()
+
+    if (exitCode == 0 && output.isNotBlank()) output else "stable"
+  } catch (e: Exception) {
+    "stable"
+  }
+}
+
 android {
-  namespace = "org.grakovne.lissen"
+  namespace = "org.cliophate.tome"
   compileSdk = 36
   
   lint {
@@ -37,11 +52,15 @@ android {
   }
   
   defaultConfig {
-    applicationId = "org.grakovne.lissen"
+    val commitHash = gitCommitHash()
+    
+    applicationId = "org.cliophate.tome"
     minSdk = 28
     targetSdk = 36
-    versionCode = 10912
-    versionName = "1.9.12-release"
+    versionCode = 10911
+    versionName = "1.9.11-$commitHash"
+    
+    buildConfigField("String", "GIT_HASH", "\"$commitHash\"")
     
     testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     
@@ -167,10 +186,6 @@ dependencies {
   implementation(libs.androidx.glance)
   implementation(libs.androidx.glance.appwidget)
   implementation(libs.androidx.glance.material3)
-  
-  implementation(libs.acra.core)
-  implementation(libs.acra.http)
-  implementation(libs.acra.toast)
   
   implementation(libs.androidx.room.runtime)
   implementation(libs.androidx.room.ktx)

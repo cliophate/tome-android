@@ -24,7 +24,6 @@
     <string name="the_library_is_empty">Die Bibliothek ist leer</string>
     <string name="audiobookshelf_server_is_required">Audiobookshelf Server ist notwendig</string>
     <string name="no_internet_connection">Keine Internetverbindung</string>
-    <string name="app_crach_toast">Entschuldigung für den Absturz der Anwendung\nDie Protokolle wurden zur Analyse gesendet</string>
     <string name="settings_screen_color_scheme_title">Farbschema</string>
     <string name="library_search_hint">Suche nach Titel, Autor oder Serie</string>
     <string name="player_screen_title">Aktuelle Wiedergabe</string>
@@ -89,15 +88,13 @@
     <string name="notification_content_caching_channel">Zwischenspeicherung von Inhalten</string>
     <string name="settings_screen_library_ordering_modification_date_option">Zeitpunkt der Aktualisierung</string>
     <string name="login_screen_open_id_button">Verbinden mit OpenID</string>
-    <string name="login_error_lissen_auth_failed">Autorisierung fehlgeschlagen. Bitte überprüfen Sie die Servereinstellungen</string>
+    <string name="login_error_tome_auth_failed">Autorisierung fehlgeschlagen. Bitte überprüfen Sie die Servereinstellungen</string>
     <string name="notification_content_caching_title">Inhalt wird zwischengespeichert</string>
-    <string name="source_code_on_github_title">Quellcode auf GitHub</string>
-    <string name="source_code_on_github_subtitle">Probleme melden oder Verbesserungen vorschlagen</string>
     <string name="settings_screen_library_ordering_title">Bibliothekssortierung</string>
     <string name="settings_screen_library_ordering_title_option">Titel</string>
     <string name="settings_screen_library_ordering_author_option">Autor</string>
     <string name="settings_screen_library_ordering_creation_date_option">Zeitpunkt der Erstellung</string>
-    <string name="login_error_lissen_auth_scheme_must_be_whitelisted">Das Schema %1$s://%2$s ist in den Weiterleitungs-URI-Einstellungen des Servers nicht erlaubt</string>
+    <string name="login_error_tome_auth_scheme_must_be_whitelisted">Das Schema %1$s://%2$s ist in den Weiterleitungs-URI-Einstellungen des Servers nicht erlaubt</string>
     <string name="playing_item_details_narrator">Erzähler</string>
     <string name="playing_item_details_duration">Dauer</string>
     <string name="settings_screen_seek_time_title">Einstellungen zum Spulen</string>
@@ -120,7 +117,7 @@
     <string name="player_screen_chapter_list_navigation_podcast">Episoden</string>
     <string name="player_screen_chapter_list_navigation_items">Elemente</string>
     <string name="downloads_menu_download_option_disable">Deaktiviert</string>
-    <string name="login_error_lissen_not_found">URL nicht gefunden. Prüfe die Server Einstellungen</string>
+    <string name="login_error_tome_not_found">URL nicht gefunden. Prüfe die Server Einstellungen</string>
     <string name="volume_boost_disabled">Deaktiviert</string>
     <string name="volume_boost_low">Wenig</string>
     <string name="volume_boost_medium">Mittel</string>
@@ -129,8 +126,6 @@
     <string name="playing_item_details_time_remaining">Zeit verbleibend</string>
     <string name="settings_screen_advanced_preferences_title">Erweiterte Einstellungen</string>
     <string name="settings_screen_advanced_preferences_description">Verwalte Spuleinstellungen, Proxy Kopfzeilen oder Ton</string>
-    <string name="settings_screen_crash_report_title">Absturzberichte</string>
-    <string name="settings_screen_crash_report_description">Sende Bericht wenn die App abstürzt</string>
     <string name="settings_download_automatically_title">Automatisch herunterladen</string>
     <string name="download_settings_title">Downloadeinstellungen</string>
     <string name="download_settings_description">Verwalte das Downloadverhalten und Inhalte</string>

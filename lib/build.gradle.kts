@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-	namespace = "org.grakovne.lissen.lib"
+	namespace = "org.cliophate.tome.lib"
 	compileSdk = 36
 	
 	defaultConfig {

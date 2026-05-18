@@ -85,12 +85,10 @@
     <string name="notification_content_caching_title">Innholdet lagres i hurtigbufferen</string>
     <string name="notification_content_caching_error_title">Caching mislyktes</string>
     <string name="notification_content_caching_error_description">Noen få filer ble ikke lagret</string>
-    <string name="login_error_lissen_auth_scheme_must_be_whitelisted">Oppsettet %1$s://%2$s er ikke tillatt i serverens innstillinger for omdirigerings-URI</string>
-    <string name="login_error_lissen_auth_failed">Det var ikke mulig å godkjenne. Vennligst sjekk serverinnstillingene dine</string>
-    <string name="login_error_lissen_not_found">URL-adressen ble ikke funnet. Kontroller serverinnstillingene dine</string>
+    <string name="login_error_tome_auth_scheme_must_be_whitelisted">Oppsettet %1$s://%2$s er ikke tillatt i serverens innstillinger for omdirigerings-URI</string>
+    <string name="login_error_tome_auth_failed">Det var ikke mulig å godkjenne. Vennligst sjekk serverinnstillingene dine</string>
+    <string name="login_error_tome_not_found">URL-adressen ble ikke funnet. Kontroller serverinnstillingene dine</string>
     <string name="login_screen_open_id_button">Logg inn med OpenID</string>
-    <string name="source_code_on_github_title">Kildekode på GitHub</string>
-    <string name="source_code_on_github_subtitle">Meld fra om problemer eller kom med forslag til forbedringer</string>
     <string name="settings_screen_library_ordering_title">Sortering i biblioteket</string>
     <string name="settings_screen_library_ordering_title_option">Tittel</string>
     <string name="settings_screen_library_ordering_author_option">Forfatter</string>
@@ -114,7 +112,6 @@
     <string name="volume_boost_low">Lav</string>
     <string name="volume_boost_medium">Middels</string>
     <string name="volume_boost_high">Høy</string>
-    <string name="app_crach_toast">Beklager at appen krasjet\nLoggfilene er sendt til analyse</string>
     <string name="timer_option_disabled">Funksjonshemmet</string>
     <string name="timer_option_after_current_chapter">Når kapitlet slutter</string>
     <string name="timer_option_after_current_episode">Når episoden er slutt</string>
@@ -137,8 +134,6 @@
     <string name="playing_item_details_time_remaining">Gjenværende tid</string>
     <string name="settings_screen_advanced_preferences_title">Avanserte innstillinger</string>
     <string name="settings_screen_advanced_preferences_description">Kontrollsøking, proxy-overskrifter eller lyd</string>
-    <string name="settings_screen_crash_report_title">Feilrapportering</string>
-    <string name="settings_screen_crash_report_description">Send rapporter hvis appen krasjer</string>
     <string name="settings_screen_software_codecs_enabled_title">Tving programvaren til å dekode</string>
     <string name="settings_screen_software_codecs_enabled_description">Bruk programvarekodeker for lydavspilling</string>
     <string name="settings_download_automatically_title">Last ned automatisk</string>

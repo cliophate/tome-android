@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Lissen</string>
+    <string name="app_name" translatable="false">Tome</string>
     <string name="library_screen_library_title">Kütüphane</string>
     <string name="library_screen_continue_listening_title">Dinlemeye devam et</string>
     <string name="library_screen_preferences_menu_item">Tercihler</string>
@@ -33,7 +33,6 @@
     <string name="the_offline_library_is_empty">Henüz kaydedilmiş kitap yok</string>
     <string name="audiobookshelf_server_is_required">Audiobookshelf sunucusu gerekli</string>
     <string name="no_internet_connection">İnternet bağlantısı yok</string>
-    <string name="app_crach_toast">Uygulama çökmesi için özür dileriz\nGünlükler analiz için gönderildi</string>
     <string name="playback_speed_title">Oynatma hızı</string>
     <string name="color_scheme_follow_system">Sistem</string>
     <string name="color_scheme_light">Açık</string>
@@ -89,8 +88,8 @@
     <string name="notification_content_caching_title">İçerik önbelleğe alınıyor</string>
     <string name="notification_content_caching_error_title">Önbelleğe alma başarısız</string>
     <string name="notification_content_caching_error_description">Bazı dosyalar kaydedilemedi</string>
-    <string name="login_error_lissen_auth_scheme_must_be_whitelisted">Şema %1$s://%2$s sunucunun yönlendirme URI ayarlarında izin verilmiyor</string>
-    <string name="login_error_lissen_auth_failed">Yetkilendirme yapılamadı. Lütfen sunucu ayarlarınızı kontrol edin</string>
+    <string name="login_error_tome_auth_scheme_must_be_whitelisted">Şema %1$s://%2$s sunucunun yönlendirme URI ayarlarında izin verilmiyor</string>
+    <string name="login_error_tome_auth_failed">Yetkilendirme yapılamadı. Lütfen sunucu ayarlarınızı kontrol edin</string>
     <string name="login_screen_open_id_button">OpenID ile Bağlan</string>
     <string name="playing_item_details_narrator">Anlatıcı</string>
     <string name="playing_item_details_duration">Süre</string>

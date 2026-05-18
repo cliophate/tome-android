@@ -32,7 +32,6 @@
     <string name="the_offline_library_is_empty">Aucun livre enregistré pour l\'instant</string>
     <string name="audiobookshelf_server_is_required">Un serveur Audiobookshelf est requis</string>
     <string name="no_internet_connection">Pas de connexion internet</string>
-    <string name="app_crach_toast">Désolé pour le crash de l\'application\nLes journaux ont été transmis pour analyse</string>
     <string name="playback_speed_title">Vitesse de lecture</string>
     <string name="color_scheme_follow_system">Système</string>
     <string name="color_scheme_light">Clair</string>
@@ -94,10 +93,8 @@
     <string name="chapters_list_empty">Ce livre n\'a pas de chapitres</string>
     <string name="continue_playback_shortcut_description">Continuer à écouter</string>
     <string name="episodes_list_empty">Il n\'y a pas d\'épisodes dans les podcasts</string>
-    <string name="login_error_lissen_auth_failed">Autorisation impossible. Veuillez vérifier les paramètres de votre serveur</string>
+    <string name="login_error_tome_auth_failed">Autorisation impossible. Veuillez vérifier les paramètres de votre serveur</string>
     <string name="login_screen_open_id_button">Connectez-vous avec OpenID</string>
-    <string name="source_code_on_github_title">Code source sur GitHub</string>
-    <string name="source_code_on_github_subtitle">Signaler des problèmes ou suggérer des améliorations</string>
     <string name="rewind_interval">Intervalle de rembobinage</string>
     <string name="seek_interval_15_seconds">15 secondes</string>
     <string name="seek_interval_30_seconds">30 secondes</string>
@@ -110,7 +107,7 @@
     <string name="items_list_empty">Aucun article disponible</string>
     <string name="notification_content_caching_channel">Mise en cache du contenu</string>
     <string name="notification_content_caching_title">Le contenu est mis en cache</string>
-    <string name="login_error_lissen_auth_scheme_must_be_whitelisted">Le schéma %1$s://%2$s n\'est pas autorisé dans les paramètres d\'URI de redirection du serveur</string>
+    <string name="login_error_tome_auth_scheme_must_be_whitelisted">Le schéma %1$s://%2$s n\'est pas autorisé dans les paramètres d\'URI de redirection du serveur</string>
     <string name="settings_screen_library_ordering_modification_date_option">Date de mise à jour</string>
     <string name="player_screen_chapter_list_navigation_podcast">Épisodes</string>
     <string name="player_screen_chapter_list_navigation_items">Éléments</string>
@@ -122,7 +119,7 @@
     <string name="downloads_menu_download_option_remaining_episodes">Épisodes restants</string>
     <string name="downloads_menu_download_option_remaining_items">Éléments restants</string>
     <string name="downloads_menu_download_option_stop_downloads">Arrêter le téléchargement</string>
-    <string name="login_error_lissen_not_found">URL non trouvée. Vérifier vos paramètres serveur</string>
+    <string name="login_error_tome_not_found">URL non trouvée. Vérifier vos paramètres serveur</string>
     <string name="offline_cache_is_empty">Aucun contenu enregistré pour le moment</string>
     <string name="settings_screen_cached_items_title">Téléchargements</string>
     <string name="settings_screen_cached_items_hint">Gérer le contenu enregistré</string>
@@ -134,8 +131,6 @@
     <string name="playing_item_details_time_remaining">Temps restant</string>
     <string name="settings_screen_advanced_preferences_title">Préférences avancées</string>
     <string name="settings_screen_advanced_preferences_description">Recherche de contrôle, en-têtes proxy ou son</string>
-    <string name="settings_screen_crash_report_title">Rapport d\'incident</string>
-    <string name="settings_screen_crash_report_description">Envoyer des rapports si l\'application plante</string>
     <string name="settings_download_automatically_title">Télécharger automatiquement</string>
     <string name="download_settings_title">Préférences de téléchargement</string>
     <string name="download_settings_description">Définir les téléchargements et gérer le contenu</string>

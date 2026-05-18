@@ -28,7 +28,6 @@
     <string name="login_error_username_is_missing">Gebruikersnaam ontbreekt</string>
     <string name="library_screen_preferences_menu_item">Voorkeuren</string>
     <string name="no_internet_connection">Geen internetverbinding</string>
-    <string name="app_crach_toast">Excuses voor de crash van de applicatie\nLogboeken zijn verzonden voor analyse</string>
     <string name="downloads_menu_download_option_entire_book">Hele boek</string>
     <string name="player_screen_timer_navigation">Timer</string>
     <string name="show_downloaded_content_only">Alleen gedownload</string>
@@ -92,11 +91,9 @@
     <string name="downloads_menu_download_option_remaining_episodes">Resterende afleveringen</string>
     <string name="downloads_menu_download_option_remaining_items">Resterende items</string>
     <string name="notification_content_caching_title">Inhoud wordt gecached</string>
-    <string name="login_error_lissen_auth_scheme_must_be_whitelisted">Het schema %1$s://%2$s is niet toegestaan in de omleidings-URL-instellingen van de server</string>
-    <string name="login_error_lissen_auth_failed">Kan niet autoriseren. Controleer uw serverinstellingen</string>
+    <string name="login_error_tome_auth_scheme_must_be_whitelisted">Het schema %1$s://%2$s is niet toegestaan in de omleidings-URL-instellingen van de server</string>
+    <string name="login_error_tome_auth_failed">Kan niet autoriseren. Controleer uw serverinstellingen</string>
     <string name="login_screen_open_id_button">Verbind met OpenID</string>
-    <string name="source_code_on_github_title">Broncode op GitHub</string>
-    <string name="source_code_on_github_subtitle">Meld problemen of stel verbeteringen voor</string>
     <string name="settings_screen_library_ordering_title_option">Titel</string>
     <string name="settings_screen_library_ordering_author_option">Auteur</string>
     <string name="settings_screen_library_ordering_creation_date_option">Aanmaak datum</string>

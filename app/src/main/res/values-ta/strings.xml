@@ -33,7 +33,6 @@
     <string name="the_offline_library_is_empty">சேமித்த புத்தகங்கள் இதுவரை இல்லை</string>
     <string name="audiobookshelf_server_is_required">ஆடியோபுக்செல்ஃப் சேவையகம் தேவை</string>
     <string name="no_internet_connection">இணைய இணைப்பு இல்லை</string>
-    <string name="app_crach_toast">விண்ணப்ப விபத்துக்கு மன்னிக்கவும்\n பதிவுகள் பகுப்பாய்விற்கு அனுப்பப்பட்டுள்ளன</string>
     <string name="playback_speed_title">பின்னணி விரைவு</string>
     <string name="color_scheme_follow_system">மண்டலம்</string>
     <string name="color_scheme_light">ஒளி</string>
@@ -86,7 +85,7 @@
     <string name="playing_item_details_narrator">வாசிப்பவர்</string>
     <string name="playing_item_details_duration">நேரம்</string>
     <string name="notification_content_caching_title">உள்ளடக்கம் தற்காலிக சேமிப்பு</string>
-    <string name="login_error_lissen_auth_failed">ஏற்பு வழங்க முடியவில்லை. உங்கள் சேவையக அமைப்புகளை சரிபார்க்கவும்</string>
+    <string name="login_error_tome_auth_failed">ஏற்பு வழங்க முடியவில்லை. உங்கள் சேவையக அமைப்புகளை சரிபார்க்கவும்</string>
     <string name="settings_screen_seek_time_hint">தேடல் கட்டுப்பாடுகளை வரையறுக்கவும்</string>
     <string name="rewind_interval">இடைவெளி</string>
     <string name="settings_screen_cached_items_title">பதிவிறக்கங்கள்</string>
@@ -106,9 +105,7 @@
     <string name="downloads_menu_download_option_remaining_chapters">மீதமுள்ள பாடங்கள்</string>
     <string name="chapters_list_empty">புத்தகத்தில் அத்தியாயங்கள் இல்லை</string>
     <string name="items_list_empty">கிடைக்கக்கூடிய உருப்படிகள் இல்லை</string>
-    <string name="login_error_lissen_auth_scheme_must_be_whitelisted">திட்டம் %1$s: // %2$s சேவையகத்தின் வழிமாற்றி யூரி அமைப்புகளில் அனுமதிக்கப்படாது</string>
-    <string name="source_code_on_github_title">கிதுபில் மூலக் குறியீடு</string>
-    <string name="source_code_on_github_subtitle">சிக்கல்களைப் புகாரளிக்கவும் அல்லது மேம்பாடுகளை பரிந்துரைக்கவும்</string>
+    <string name="login_error_tome_auth_scheme_must_be_whitelisted">திட்டம் %1$s: // %2$s சேவையகத்தின் வழிமாற்றி யூரி அமைப்புகளில் அனுமதிக்கப்படாது</string>
     <string name="settings_screen_library_ordering_title_option">தலைப்பு</string>
     <string name="settings_screen_library_ordering_author_option">நூலாசிரியர்</string>
     <string name="settings_screen_library_ordering_creation_date_option">உருவாக்கிய தேதி</string>
@@ -127,7 +124,7 @@
     <string name="timer_option_disabled">முடக்கப்பட்டது</string>
     <string name="downloads_menu_download_option_disable">முடக்கப்பட்டது</string>
     <string name="downloads_menu_download_option_stop_downloads">பதிவிறக்குவதை நிறுத்து</string>
-    <string name="login_error_lissen_not_found">முகவரி கிடைக்கவில்லை. உங்கள் சர்வர் அமைப்புகளைச் சரிபார்க்கவும்</string>
+    <string name="login_error_tome_not_found">முகவரி கிடைக்கவில்லை. உங்கள் சர்வர் அமைப்புகளைச் சரிபார்க்கவும்</string>
     <string name="volume_boost_disabled">முடக்கப்பட்டது</string>
     <string name="volume_boost_low">குறைந்த</string>
     <string name="volume_boost_medium">சராசரி</string>
@@ -137,8 +134,6 @@
     <string name="playing_item_details_time_remaining">மீதமுள்ள நேரம்</string>
     <string name="settings_screen_advanced_preferences_title">மேம்பட்ட விருப்பத்தேர்வுகள்</string>
     <string name="settings_screen_advanced_preferences_description">தேடுதல், பதிலாள் தலைப்புகள் அல்லது ஒலியைக் கட்டுப்படுத்தவும்</string>
-    <string name="settings_screen_crash_report_title">செயலிழப்பு அறிக்கை</string>
-    <string name="settings_screen_crash_report_description">பயன்பாடு செயலிழந்தால் அறிக்கைகளை அனுப்பவும்</string>
     <string name="settings_screen_software_codecs_enabled_title">மென்பொருள் டிகோடிங்கை கட்டாயப்படுத்தவும்</string>
     <string name="settings_screen_software_codecs_enabled_description">ஆடியோ பிளேபேக்கிற்கு மென்பொருள் கோடெக்குகளைப் பயன்படுத்தவும்</string>
     <string name="settings_download_automatically_title">தானாக பதிவிறக்கவும்</string>

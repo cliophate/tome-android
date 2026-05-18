@@ -37,7 +37,6 @@
     <string name="the_offline_library_is_empty">Ainda não há livros salvos</string>
     <string name="audiobookshelf_server_is_required">É necessário um servidor Audiobookshelf</string>
     <string name="no_internet_connection">Sem conexão à internet</string>
-    <string name="app_crach_toast">Lamentamos a falha inesperada do aplicativo\nOs logs foram enviados para análise</string>
     <string name="playback_speed_title">Velocidade de reprodução</string>
     <string name="color_scheme_follow_system">Sistema</string>
     <string name="color_scheme_light">Claro</string>
@@ -104,12 +103,10 @@
     <string name="notification_content_caching_title">Armazenando conteúdo em cache</string>
     <string name="notification_content_caching_error_title">Erro de armazenamento em cache</string>
     <string name="notification_content_caching_error_description">Alguns arquivos não foram salvos</string>
-    <string name="login_error_lissen_auth_scheme_must_be_whitelisted">O esquema %1$s://%2$s não é permitido na URI de redirecionamento do servidor</string>
-    <string name="login_error_lissen_auth_failed">Não foi possível autenticar. Por favor, verifique as configurações do servidor</string>
-    <string name="login_error_lissen_not_found">URL não encontrado. Verifique as configurações do servidor</string>
+    <string name="login_error_tome_auth_scheme_must_be_whitelisted">O esquema %1$s://%2$s não é permitido na URI de redirecionamento do servidor</string>
+    <string name="login_error_tome_auth_failed">Não foi possível autenticar. Por favor, verifique as configurações do servidor</string>
+    <string name="login_error_tome_not_found">URL não encontrado. Verifique as configurações do servidor</string>
     <string name="login_screen_open_id_button">Entrar com OpenID</string>
-    <string name="source_code_on_github_title">Código fonte no GitHub</string>
-    <string name="source_code_on_github_subtitle">Relatar problemas ou sugerir melhorias</string>
     <string name="settings_screen_library_ordering_title">Ordem da biblioteca</string>
     <string name="settings_screen_library_ordering_title_option">Título</string>
     <string name="settings_screen_library_ordering_author_option">Autor</string>
@@ -138,8 +135,6 @@
     <string name="playing_item_details_time_remaining">Tempo restante</string>
     <string name="settings_screen_advanced_preferences_title">Preferências avançadas</string>
     <string name="settings_screen_advanced_preferences_description">Controlar a busca no áudio, headers de proxy ou som</string>
-    <string name="settings_screen_crash_report_title">Relatórios de falhas</string>
-    <string name="settings_screen_crash_report_description">Enviar relatórios se o aplicativo falhar</string>
     <string name="settings_screen_software_codecs_enabled_title">Forçar decodificação por software</string>
     <string name="settings_screen_software_codecs_enabled_description">Usar codecs de software para reprodução de áudio</string>
     <string name="settings_download_automatically_title">Baixar automaticamente</string>

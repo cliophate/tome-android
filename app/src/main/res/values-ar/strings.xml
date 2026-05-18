@@ -10,8 +10,6 @@
     <string name="downloads_menu_download_option_clear_items">مسح العناصر التي تم تنزيلها</string>
     <string name="mini_player_action_close">إغلاق</string>
     <string name="playing_item_details_author">المؤلف</string>
-    <string name="source_code_on_github_title">الكود المصدري على GitHub</string>
-    <string name="source_code_on_github_subtitle">الإبلاغ عن المشاكل أو اقتراح تحسينات</string>
     <string name="seek_interval_15_seconds">15 ثانية</string>
     <string name="seek_interval_30_seconds">30 ثانية</string>
     <string name="seek_interval_60_seconds">60 ثانية</string>
@@ -50,8 +48,8 @@
     <string name="downloads_menu_download_podcast">تنزيل البودكاست</string>
     <string name="continue_playback_shortcut_title">متابعة</string>
     <string name="continue_playback_shortcut_description">متابعة الاستماع</string>
-    <string name="login_error_lissen_auth_scheme_must_be_whitelisted">النسق %1$s://%2$s غير مسموح به في إعدادات عنوان URI لإعادة التوجيه بالخادم</string>
-    <string name="login_error_lissen_auth_failed">تعذر التفويض. يرجى التحقق من إعدادات الخادم</string>
+    <string name="login_error_tome_auth_scheme_must_be_whitelisted">النسق %1$s://%2$s غير مسموح به في إعدادات عنوان URI لإعادة التوجيه بالخادم</string>
+    <string name="login_error_tome_auth_failed">تعذر التفويض. يرجى التحقق من إعدادات الخادم</string>
     <string name="settings_screen_library_ordering_title">ترتيب المكتبة</string>
     <string name="settings_screen_library_ordering_title_option">العنوان</string>
     <string name="settings_screen_library_ordering_author_option">المؤلف</string>
@@ -108,7 +106,6 @@
     <string name="the_offline_library_is_empty">لم يتم حفظ أي كتب بعد</string>
     <string name="audiobookshelf_server_is_required">خادم Audiobookshelf مطلوب</string>
     <string name="no_internet_connection">لا يوجد اتصال بالإنترنت</string>
-    <string name="app_crach_toast">عذراً على تعطل التطبيق\nتم إرسال السجلات للتحليل</string>
     <string name="library_search_hint">البحث حسب العنوان، المؤلف، أو السلسلة</string>
     <string name="player_screen_title">يتم الاستماع الآن</string>
     <string name="settings_screen_custom_headers_title">رؤوس مخصصة</string>
@@ -129,9 +126,7 @@
     <string name="volume_boost_high">مرتفع</string>
     <string name="playing_item_details_time_remaining">الوقت المتبقي</string>
     <string name="settings_screen_advanced_preferences_title">الإعدادات المتقدمة</string>
-    <string name="settings_screen_crash_report_description">ارسال تقارير الاعطال</string>
-    <string name="login_error_lissen_not_found">رابط URL غير موجود. تأكد من إعدادات الخادم</string>
-    <string name="settings_screen_crash_report_title">إبلاغ التعطل</string>
+    <string name="login_error_tome_not_found">رابط URL غير موجود. تأكد من إعدادات الخادم</string>
     <string name="volume_boost_title">الصوت المُعزَّز</string>
     <string name="settings_screen_connection_type">نوع الإتصال</string>
     <string name="settings_screen_connection_local">الشبكة المحلية</string>

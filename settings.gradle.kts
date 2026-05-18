@@ -24,6 +24,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Lissen"
+rootProject.name = "Tome"
 include(":app")
 include(":lib")

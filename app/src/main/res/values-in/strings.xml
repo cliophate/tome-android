@@ -37,7 +37,6 @@
     <string name="the_offline_library_is_empty">Belum ada buku tersimpan</string>
     <string name="audiobookshelf_server_is_required">Server Audiobookshelf diperlukan</string>
     <string name="no_internet_connection">Tidak tersambung ke internet</string>
-    <string name="app_crach_toast">Kerusakan aplikasi tercatat\nLog telah dikirim untuk dianalisis</string>
     <string name="playback_speed_title">Kecepatan pemutaran</string>
     <string name="color_scheme_follow_system">Sistem</string>
     <string name="color_scheme_light">Terang</string>
@@ -100,12 +99,10 @@
     <string name="notification_content_caching_title">Konten sedang disimpan dalam cache</string>
     <string name="notification_content_caching_error_title">Gagal caching konten</string>
     <string name="notification_content_caching_error_description">Beberapa file gagal disimpan</string>
-    <string name="login_error_lissen_auth_scheme_must_be_whitelisted">Skema %1$s://%2$s tidak diizinkan di pengaturan URI redirect server</string>
-    <string name="login_error_lissen_auth_failed">Gagal otorisasi. Periksa pengaturan server kamu</string>
-    <string name="login_error_lissen_not_found">URL tidak ditemukan. Periksa pengaturan Server kamu</string>
+    <string name="login_error_tome_auth_scheme_must_be_whitelisted">Skema %1$s://%2$s tidak diizinkan di pengaturan URI redirect server</string>
+    <string name="login_error_tome_auth_failed">Gagal otorisasi. Periksa pengaturan server kamu</string>
+    <string name="login_error_tome_not_found">URL tidak ditemukan. Periksa pengaturan Server kamu</string>
     <string name="login_screen_open_id_button">Hubungkan dengan OpenID</string>
-    <string name="source_code_on_github_title">Lihat kode sumber di GitHub</string>
-    <string name="source_code_on_github_subtitle">Laporkan masalah atau sarankan perbaikan</string>
     <string name="settings_screen_library_ordering_title">Urutan koleksi</string>
     <string name="settings_screen_library_ordering_title_option">Judul</string>
     <string name="settings_screen_library_ordering_author_option">Penulis</string>
@@ -134,8 +131,6 @@
     <string name="playing_item_details_time_remaining">Sisa waktu</string>
     <string name="settings_screen_advanced_preferences_title">Preferensi lanjutan</string>
     <string name="settings_screen_advanced_preferences_description">Kontrol lompatan waktu, header proxy, dan audio</string>
-    <string name="settings_screen_crash_report_title">Pelaporan crash</string>
-    <string name="settings_screen_crash_report_description">Kirim laporan jika aplikasi mengalami crash</string>
     <string name="settings_download_automatically_title">Unduh otomatis</string>
     <string name="download_settings_title">Preferensi unduhan</string>
     <string name="download_settings_description">Atur unduhan dan kelola konten</string>

@@ -14,7 +14,7 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
-        android:name=".LissenApplication"
+        android:name=".TomeApplication"
         android:allowBackup="true"
         android:hasFragileUserData="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -26,9 +26,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:largeHeap="true"
-        android:theme="@style/Theme.Lissen"
+        android:theme="@style/Theme.Tome"
         tools:ignore="DiscouragedApi,UnusedAttribute"
-        android:manageSpaceActivity="org.grakovne.lissen.content.LissenDataManagementActivity"
+        android:manageSpaceActivity="org.cliophate.tome.content.TomeDataManagementActivity"
         tools:targetApi="36">
 
         <!-- Add Android Auto support -->
@@ -41,7 +41,7 @@
             android:name=".ui.activity.AppActivity"
             android:exported="true"
             android:launchMode="singleTop"
-            android:theme="@style/Theme.Lissen"
+            android:theme="@style/Theme.Tome"
             tools:ignore="LockedOrientationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -50,7 +50,7 @@
         </activity>
 
         <activity
-            android:name="org.grakovne.lissen.content.LissenDataManagementActivity"
+            android:name="org.cliophate.tome.content.TomeDataManagementActivity"
             android:exported="true"
             android:theme="@style/Theme.Transparent"
             tools:ignore="LockedOrientationActivity" />
@@ -68,7 +68,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:scheme="lissen"
+                    android:scheme="tome"
                     android:host="oauth" />
             </intent-filter>
         </activity>
@@ -124,16 +124,6 @@
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths" />
-        </provider>
-
-        <provider
-            android:name="androidx.core.content.FileProvider"
-            android:authorities="${applicationId}.fileprovider"
-            android:exported="false"
-            android:grantUriPermissions="true">
-            <meta-data
-                android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/log_file_paths" />
         </provider>
 
     </application>

@@ -1,9 +1,9 @@
-# Lissen - Clean Audiobookshelf Player
-[![Build Lissen App](https://github.com/GrakovNe/lissen-android/actions/workflows/build_app.yml/badge.svg)](https://github.com/GrakovNe/lissen-android/actions/workflows/build_app.yml)
+# Tome - Clean Audiobookshelf Player
+[![Build Tome App](https://github.com/GrakovNe/lissen-android/actions/workflows/build_app.yml/badge.svg)](https://github.com/GrakovNe/lissen-android/actions/workflows/build_app.yml)
 
 <p align="center"> 
-  <a href="https://play.google.com/store/apps/details?id=org.grakovne.lissen"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" height="60"></a>&nbsp;&nbsp;&nbsp;<!--
-  --><a href="https://f-droid.org/packages/org.grakovne.lissen"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Get_it_on_F-Droid_%28material_design%29.svg" alt="Get it on F-Droid" height="60"></a>
+  <a href="https://play.google.com/store/apps/details?id=org.cliophate.tome"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" height="60"></a>&nbsp;&nbsp;&nbsp;<!--
+  --><a href="https://f-droid.org/packages/org.cliophate.tome"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Get_it_on_F-Droid_%28material_design%29.svg" alt="Get it on F-Droid" height="60"></a>
 </p>
 
 ### Features
@@ -25,7 +25,7 @@
 
 ### Disclaimer
 
-Lissen is not a clone of the official Audiobookshelf app and does not aim to replicate all of its features. 
+This app is not a clone of the official Audiobookshelf app and does not aim to replicate all of its features. 
 The goal of this project is to provide a minimalistic interface and a seamless experience for listening to audiobooks and podcasts.
 
 If there’s a feature you feel is missing or would significantly improve your experience, feel free to open an issue and share your suggestion. 
@@ -75,7 +75,7 @@ AI is a great tool, but until it can reliably understand the code it produces an
 
 ### Demo Environment
 
-You can connect to a demo [Audiobookshelf](https://github.com/advplyr/audiobookshelf) instance through the Lissen app:
+You can connect to a demo [Audiobookshelf](https://github.com/advplyr/audiobookshelf) instance through the Tome app:
 
 URL: [https://demo.lissenapp.org/](https://demo.lissenapp.org/)
 ```
@@ -86,4 +86,4 @@ Password: demo
 This instance is contains only Public Domain audiobooks from [LibriVox](https://librivox.org/)
 
 ## License
-Lissen is open-source and licensed under the MIT License. See the LICENSE file for more details.
+Tome is open-source and licensed under the MIT License. See the LICENSE file for more details.

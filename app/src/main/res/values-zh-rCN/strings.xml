@@ -58,7 +58,6 @@
     <string name="show_downloaded_content_only">查看已下载内容</string>
     <string name="the_library_is_empty">媒体库暂无内容</string>
     <string name="audiobookshelf_server_is_required">需要 Audiobookshelf 服务器</string>
-    <string name="app_crach_toast">应用意外退出，我们深表歉意\n日志已发送，用于问题分析</string>
     <string name="color_scheme_light">浅色</string>
     <string name="color_scheme_dark">深色</string>
     <string name="settings_screen_color_scheme_title">颜色主题</string>
@@ -88,10 +87,8 @@
     <string name="chapters_list_empty">本书无章节</string>
     <string name="episodes_list_empty">本播客无剧集</string>
     <string name="items_list_empty">暂无可用项目</string>
-    <string name="login_error_lissen_auth_failed">认证失败，请检查你的服务器设置</string>
+    <string name="login_error_tome_auth_failed">认证失败，请检查你的服务器设置</string>
     <string name="login_screen_open_id_button">使用 OpenID 连接</string>
-    <string name="source_code_on_github_title">访问 GitHub 查看源代码</string>
-    <string name="source_code_on_github_subtitle">报告问题或提出改进意见</string>
     <string name="settings_screen_library_ordering_title">媒体库排序</string>
     <string name="settings_screen_library_ordering_title_option">标题</string>
     <string name="settings_screen_library_ordering_author_option">作者</string>
@@ -113,7 +110,7 @@
     <string name="notification_content_caching_title">正在缓存内容</string>
     <string name="notification_content_caching_error_title">缓存失败</string>
     <string name="notification_content_caching_error_description">一些文件没有保存</string>
-    <string name="login_error_lissen_auth_scheme_must_be_whitelisted">服务器的重定向 URI 设置中不允许使用协议方案 %1$s://%2$s</string>
+    <string name="login_error_tome_auth_scheme_must_be_whitelisted">服务器的重定向 URI 设置中不允许使用协议方案 %1$s://%2$s</string>
     <string name="continue_playback_shortcut_description">继续播放上次收听的内容</string>
     <string name="settings_screen_connected_as_title">当前用户</string>
     <string name="continue_playback_shortcut_title">继续播放</string>
@@ -124,10 +121,8 @@
     <string name="volume_boost_title">音量增强</string>
     <string name="playing_item_details_time_remaining">剩余时间</string>
     <string name="settings_screen_advanced_preferences_title">高级选项</string>
-    <string name="settings_screen_crash_report_title">崩溃上报</string>
-    <string name="settings_screen_crash_report_description">应用崩溃时发送报告</string>
     <string name="settings_screen_advanced_preferences_description">控制播放进度、网络代理或声音</string>
-    <string name="login_error_lissen_not_found">未找到该 URL，请检查你的服务器设置</string>
+    <string name="login_error_tome_not_found">未找到该 URL，请检查你的服务器设置</string>
     <string name="player_screen_chapter_list_navigation_podcast">剧集</string>
     <string name="player_screen_chapter_list_navigation_items">项目</string>
     <string name="settings_download_automatically_title">自动下载</string>

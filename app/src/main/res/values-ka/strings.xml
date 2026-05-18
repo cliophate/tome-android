@@ -32,7 +32,6 @@
     <string name="the_offline_library_is_empty">შენახული წიგნები ჯერ-ჯერობით არ არის</string>
     <string name="audiobookshelf_server_is_required">საჭიროა Audiobookshelf სერვერი</string>
     <string name="no_internet_connection">ინტერნეტთან კავშირი არ არის</string>
-    <string name="app_crach_toast">ბოდიშს გიხდით აპლიკაციის ხარვეზისთვის\nჟურნალები ანალიზისთვის გაგზავნილია დამმუშავებელთან</string>
     <string name="playback_speed_title">მოსმენის სიჩქარე</string>
     <string name="color_scheme_follow_system">სისტემის მიხედვით</string>
     <string name="color_scheme_light">ღია</string>
@@ -93,11 +92,9 @@
     <string name="notification_content_caching_title">მიმდინარეობს კონტენტის ქეშირება</string>
     <string name="notification_content_caching_error_title">ქეშირება ვერ მოხერხდა</string>
     <string name="notification_content_caching_error_description">რამდენიმე ფაილი არ შენახულა</string>
-    <string name="login_error_lissen_auth_scheme_must_be_whitelisted">სქემა %1$s://%2$s სერვერის გადამისამართების URI პარამეტრებში დაუშვებელია</string>
-    <string name="login_error_lissen_auth_failed">ავტორიზაცია ვერ მოხერხდა. გთხოვთ, შეამოწმოთ სერვერის პარამეტრები</string>
+    <string name="login_error_tome_auth_scheme_must_be_whitelisted">სქემა %1$s://%2$s სერვერის გადამისამართების URI პარამეტრებში დაუშვებელია</string>
+    <string name="login_error_tome_auth_failed">ავტორიზაცია ვერ მოხერხდა. გთხოვთ, შეამოწმოთ სერვერის პარამეტრები</string>
     <string name="login_screen_open_id_button">OpenID-ით დაკავშირება</string>
-    <string name="source_code_on_github_title">წყაროს კოდი GitHub-ზე</string>
-    <string name="source_code_on_github_subtitle">პრობლემების შესახებ შეტყობინება ან გაუმჯობესებების შეთავაზება</string>
     <string name="settings_screen_library_ordering_title">ბიბლიოთეკის დალაგება</string>
     <string name="settings_screen_library_ordering_title_option">სახელი</string>
     <string name="settings_screen_library_ordering_author_option">ავტორი</string>

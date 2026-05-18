@@ -52,7 +52,6 @@
         <item quantity="one">%d perc</item>
         <item quantity="other">%d perc</item>
     </plurals>
-    <string name="app_crach_toast">Elnézést kérünk az alkalmazás összeomlásáért\nA naplókat elküldtük kivizsgálásra</string>
     <string name="timer_option_disable_timer">Időzítő kikapcsolása</string>
     <string name="timer_title">Elalvás időzítő</string>
     <string name="player_screen_timer_navigation">Időzítő</string>
@@ -85,11 +84,9 @@
     <string name="notification_content_caching_title">A tartalom gyorsítótárazása folyamatban</string>
     <string name="notification_content_caching_error_title">A gyorsítótárazás sikertelen</string>
     <string name="notification_content_caching_error_description">Néhány állomány nem került mentésre</string>
-    <string name="login_error_lissen_auth_scheme_must_be_whitelisted">A %1$s://%2$s séma nem engedélyezett a kiszolgáló URI beállításaiban</string>
-    <string name="login_error_lissen_auth_failed">Sikertelen azonosítás. Kérlek ellenőrizd a kiszolgáló beállításait</string>
+    <string name="login_error_tome_auth_scheme_must_be_whitelisted">A %1$s://%2$s séma nem engedélyezett a kiszolgáló URI beállításaiban</string>
+    <string name="login_error_tome_auth_failed">Sikertelen azonosítás. Kérlek ellenőrizd a kiszolgáló beállításait</string>
     <string name="login_screen_open_id_button">Kapcsolódás OpenID-val</string>
-    <string name="source_code_on_github_title">Forráskód a GitHubon</string>
-    <string name="source_code_on_github_subtitle">Problémák vagy fejlesztési javaslatok beküldése</string>
     <string name="settings_screen_library_ordering_title">Könyvtár rendszerezése</string>
     <string name="settings_screen_library_ordering_title_option">Cím</string>
     <string name="settings_screen_library_ordering_author_option">Szerző</string>
@@ -122,12 +119,10 @@
     <string name="volume_boost_medium">Közepes</string>
     <string name="volume_boost_high">Magas</string>
     <string name="volume_boost_title">Megnövelt hangerő</string>
-    <string name="login_error_lissen_not_found">A hivatkozás nem található. Kérlek ellenőrizd a kiszolgáló beállításait</string>
+    <string name="login_error_tome_not_found">A hivatkozás nem található. Kérlek ellenőrizd a kiszolgáló beállításait</string>
     <string name="playing_item_details_time_remaining">Hátralevő idő</string>
     <string name="settings_screen_advanced_preferences_title">Speciális beállítások</string>
     <string name="settings_screen_advanced_preferences_description">Keresés, proxy fejlécek vagy hang vezérlése</string>
-    <string name="settings_screen_crash_report_title">Összeomlási jelentések</string>
-    <string name="settings_screen_crash_report_description">Jelentések küldése, ha az alkalmazás összeomlik</string>
     <string name="player_screen_chapter_list_navigation_podcast">Epizódok</string>
     <string name="player_screen_chapter_list_navigation_items">Elemek</string>
     <string name="downloads_menu_download_option_disable">Kikapcsolva</string>

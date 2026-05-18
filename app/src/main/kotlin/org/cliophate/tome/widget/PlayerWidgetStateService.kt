@@ -1,0 +1,136 @@
+package org.cliophate.tome.widget
+
+import android.content.Context
+import androidx.annotation.OptIn
+import androidx.glance.GlanceId
+import androidx.glance.appwidget.GlanceAppWidget
+import androidx.glance.appwidget.GlanceAppWidgetManager
+import androidx.glance.appwidget.state.updateAppWidgetState
+import androidx.lifecycle.asFlow
+import androidx.media3.common.util.UnstableApi
+import dagger.hilt.android.qualifiers.ApplicationContext
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.distinctUntilChanged
+import kotlinx.coroutines.flow.filterNotNull
+import kotlinx.coroutines.launch
+import org.cliophate.tome.common.RunningComponent
+import org.cliophate.tome.content.TomeMediaProvider
+import org.cliophate.tome.lib.domain.DetailedItem
+import org.cliophate.tome.playback.MediaRepository
+import org.cliophate.tome.widget.cover.PlayerCoverWidget
+import org.cliophate.tome.widget.state.PlayerStateWidget
+import java.io.File
+import javax.inject.Inject
+import javax.inject.Singleton
+
+@Singleton
+@OptIn(UnstableApi::class)
+class PlayerWidgetStateService
+  @Inject
+  constructor(
+    @param:ApplicationContext private val context: Context,
+    private val mediaRepository: MediaRepository,
+    private val mediaProvider: TomeMediaProvider,
+  ) : RunningComponent {
+    private val scope = CoroutineScope(Dispatchers.IO)
+
+    override fun onCreate() {
+      scope.launch {
+        combine(
+          mediaRepository.playingBook.asFlow().distinctUntilChanged(),
+          mediaRepository.isPlaying
+            .asFlow()
+            .filterNotNull()
+            .distinctUntilChanged(),
+          mediaRepository.currentChapterIndex.asFlow().distinctUntilChanged(),
+        ) { playingItem: DetailedItem?, isPlaying, chapterIndex: Int? ->
+          val chapterTitle = provideChapterTitle(playingItem, chapterIndex)
+
+          val maybeCover =
+            playingItem
+              ?.id
+              ?.let { mediaProvider.fetchBookCover(it) }
+              ?.fold(
+                onSuccess = { it },
+                onFailure = { null },
+              )
+
+          PlayingItemState(
+            id = playingItem?.id ?: "",
+            title = playingItem?.title ?: "",
+            chapterTitle = chapterTitle,
+            isPlaying = isPlaying,
+            coverFile = maybeCover,
+          )
+        }.collect { playingItemState ->
+          updatePlayingItem(playingItemState)
+        }
+      }
+    }
+
+    private fun provideChapterTitle(
+      item: DetailedItem?,
+      chapterIndex: Int?,
+    ): String? {
+      if (item == null || chapterIndex == null) {
+        return null
+      }
+
+      return when (chapterIndex in item.chapters.indices) {
+        true -> item.chapters[chapterIndex].title
+        false -> item.title
+      }
+    }
+
+    private suspend fun updatePlayingItem(state: PlayingItemState) {
+      updateWidgets(
+        widget = PlayerStateWidget(),
+        glanceIds = GlanceAppWidgetManager(context).getGlanceIds(PlayerStateWidget::class.java),
+        state = state,
+      )
+
+      updateWidgets(
+        widget = PlayerCoverWidget(),
+        glanceIds = GlanceAppWidgetManager(context).getGlanceIds(PlayerCoverWidget::class.java),
+        state = state,
+      )
+    }
+
+    private suspend fun updateWidgets(
+      widget: GlanceAppWidget,
+      glanceIds: List<GlanceId>,
+      state: PlayingItemState,
+    ) {
+      glanceIds.forEach { glanceId ->
+        updateAppWidgetState(context, glanceId) { prefs ->
+          when (widget) {
+            is PlayerStateWidget -> {
+              prefs[PlayerStateWidget.bookId] = state.id
+              prefs[PlayerStateWidget.coverPath] = state.coverFile?.absolutePath ?: ""
+              prefs[PlayerStateWidget.title] = state.title
+              prefs[PlayerStateWidget.chapterTitle] = state.chapterTitle ?: ""
+              prefs[PlayerStateWidget.isPlaying] = state.isPlaying
+            }
+
+            is PlayerCoverWidget -> {
+              prefs[PlayerCoverWidget.bookId] = state.id
+              prefs[PlayerCoverWidget.coverPath] = state.coverFile?.absolutePath ?: ""
+              prefs[PlayerCoverWidget.isPlaying] = state.isPlaying
+            }
+          }
+        }
+
+        widget.update(context, glanceId)
+      }
+    }
+  }
+
+data class PlayingItemState(
+  val id: String,
+  val title: String,
+  val chapterTitle: String?,
+  val isPlaying: Boolean = false,
+  val coverFile: File?,
+)

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Lissen</string>
+    <string name="app_name" translatable="false">Tome</string>
     <string name="library_screen_library_title">Knjižnica</string>
     <string name="library_screen_continue_listening_title">Nastavi slušati</string>
     <string name="library_screen_preferences_menu_item">Postavke</string>
@@ -33,7 +33,6 @@
     <string name="the_offline_library_is_empty">Nema preuzetih knjiga</string>
     <string name="audiobookshelf_server_is_required">Potreban je Audiobookshelf poslužitelj</string>
     <string name="no_internet_connection">Nema internetske veze</string>
-    <string name="app_crach_toast">Ispričavamo se zbog rušenja aplikacije\nDnevnici su poslani na analizu</string>
     <string name="playback_speed_title">Brzina reprodukcije</string>
     <string name="color_scheme_follow_system">Sustav</string>
     <string name="color_scheme_light">Svijetla</string>
@@ -95,11 +94,9 @@
     <string name="notification_content_caching_title">Sadržaj se sprema</string>
     <string name="notification_content_caching_error_title">Neuspješno predmemoriranje</string>
     <string name="notification_content_caching_error_description">Nekoliko datoteka nije spremljeno</string>
-    <string name="login_error_lissen_auth_scheme_must_be_whitelisted">Shema %1$s://%2$s nije dopuštena u postavkama preusmjeravanja poslužitelja</string>
-    <string name="login_error_lissen_auth_failed">Autorizacija nije uspjela. Provjerite postavke poslužitelja</string>
+    <string name="login_error_tome_auth_scheme_must_be_whitelisted">Shema %1$s://%2$s nije dopuštena u postavkama preusmjeravanja poslužitelja</string>
+    <string name="login_error_tome_auth_failed">Autorizacija nije uspjela. Provjerite postavke poslužitelja</string>
     <string name="login_screen_open_id_button">Poveži se s OpenID-jem</string>
-    <string name="source_code_on_github_title">Izvorni kod na GitHubu</string>
-    <string name="source_code_on_github_subtitle">Prijavi greške ili predloži poboljšanja</string>
     <string name="settings_screen_library_ordering_title">Sortiranje knjižnice</string>
     <string name="settings_screen_library_ordering_title_option">Naslov</string>
     <string name="settings_screen_library_ordering_author_option">Autor</string>
@@ -130,8 +127,6 @@
     <string name="volume_boost_title">Pojačana glasnoća</string>
     <string name="playing_item_details_time_remaining">Preostalo vrijeme</string>
     <string name="settings_screen_advanced_preferences_title">Napredne postavke</string>
-    <string name="settings_screen_crash_report_title">Izvješćivanje o prestanku rada programa</string>
-    <string name="settings_screen_crash_report_description">Pošalji izvješća ako se aplikacija sruši</string>
     <string name="settings_download_automatically_title">Automatsko preuzimanje</string>
     <string name="download_settings_title">Postavke preuzimanja</string>
     <string name="download_settings_network_type_title">Koristi za automatska preuzimanja</string>
@@ -155,7 +150,7 @@
     <string name="settings_screen_bypass_ssl_title">Onemogući SSL provjeru</string>
     <string name="settings_screen_bypass_ssl_hint">Poveži se s poslužiteljima s bilo kojim certifikatom</string>
     <string name="player_screen_chapter_list_navigation_podcast">Epizode</string>
-    <string name="login_error_lissen_not_found">URL nije pronađen. Provjerite postavke poslužitelja</string>
+    <string name="login_error_tome_not_found">URL nije pronađen. Provjerite postavke poslužitelja</string>
     <string name="volume_boost_low">Nisko</string>
     <string name="volume_boost_medium">Srednje</string>
     <string name="volume_boost_high">Visoko</string>
@@ -181,13 +176,4 @@
     <string name="connection_settings_title">Postavke veze</string>
     <string name="connection_settings_description">Postavke poslužitelja, proxyja i SSL-a</string>
     <string name="disconnect_from_server_title">Prekinite vezu s poslužiteljem</string>
-    <string name="settings_screen_client_cert_title">Klijentski certifikat</string>
-    <string name="settings_screen_client_cert_hint">Koristite klijentski certifikat za mTLS</string>
-    <string name="settings_screen_client_cert_empty_state_title">Nije odabran nijedan klijentski certifikat</string>
-    `<string name="settings_screen_client_cert_install_help_description">Uvezite datoteku certifikata putem odjeljka za sigurnost ili VPN u postavkama sustava vašeg uređaja</string>`
-    <string name="settings_screen_client_cert_selected_label">Odabrani certifikat</string>
-    <string name="settings_screen_client_cert_choose_action">Odaberite certifikat</string>
-    <string name="settings_screen_client_cert_remove_action">Ukloni certifikat</string>
-    <string name="settings_screen_client_cert_picker_cancelled_toast">mTLS nije pronađen</string>
-    <string name="login_error_client_cert_error">poslužitelj je odbio mTLS</string>
 </resources>

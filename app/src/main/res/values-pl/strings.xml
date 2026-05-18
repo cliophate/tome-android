@@ -37,7 +37,6 @@
     <string name="the_offline_library_is_empty">Brak pobranych książek</string>
     <string name="audiobookshelf_server_is_required">Serwer Audiobookshelf jest wymagany</string>
     <string name="no_internet_connection">Brak połączenia internetowego</string>
-    <string name="app_crach_toast">Przykro nam ale aplikacja zamknęła się z powodu błędu\nLogi zostały wysłane do dalszej analizy</string>
     <string name="playback_speed_title">Prędkość odtwarzania</string>
     <string name="color_scheme_follow_system">System</string>
     <string name="color_scheme_light">Jasny</string>
@@ -102,12 +101,10 @@
     <string name="notification_content_caching_title">Pobieranie treści</string>
     <string name="notification_content_caching_error_title">Pobieranie nieudane</string>
     <string name="notification_content_caching_error_description">Kilka plików nie zostało pobranych</string>
-    <string name="login_error_lissen_auth_scheme_must_be_whitelisted">Schemat %1$s://%2$s nie jest dozwolony w ustawieniach przekierowań URI serwera</string>
-    <string name="login_error_lissen_auth_failed">Nie można zautoryzować. Proszę sprawdź ustawienia swojego serwera</string>
-    <string name="login_error_lissen_not_found">URL nie został znaleziony. Sprawdź ustawienia swojego serwera</string>
+    <string name="login_error_tome_auth_scheme_must_be_whitelisted">Schemat %1$s://%2$s nie jest dozwolony w ustawieniach przekierowań URI serwera</string>
+    <string name="login_error_tome_auth_failed">Nie można zautoryzować. Proszę sprawdź ustawienia swojego serwera</string>
+    <string name="login_error_tome_not_found">URL nie został znaleziony. Sprawdź ustawienia swojego serwera</string>
     <string name="login_screen_open_id_button">Połącz się z użyciem OpenID</string>
-    <string name="source_code_on_github_title">Kod źródłowy na GitHubie</string>
-    <string name="source_code_on_github_subtitle">Zglaszaj błędy albo sugestie</string>
     <string name="settings_screen_library_ordering_title">Sortowanie biblioteki</string>
     <string name="settings_screen_library_ordering_title_option">Tytuł</string>
     <string name="settings_screen_library_ordering_author_option">Autor</string>
@@ -136,8 +133,6 @@
     <string name="playing_item_details_time_remaining">Pozostały czas</string>
     <string name="settings_screen_advanced_preferences_title">Ustawienia zaawansowane</string>
     <string name="settings_screen_advanced_preferences_description">Ustawienia przewijania, nagłówków proxy lub dźwięku</string>
-    <string name="settings_screen_crash_report_title">Raportowanie błędów</string>
-    <string name="settings_screen_crash_report_description">Wyślij raport błędu jeśli aplikacja przestanie działać</string>
     <string name="settings_download_automatically_title">Pobieraj automatyczne</string>
     <string name="download_settings_title">Ustawienia pobierania</string>
     <string name="download_settings_description">Ustaw preferencje pobierania lub zarządzaj treścią</string>

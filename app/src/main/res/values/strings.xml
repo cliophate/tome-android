@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Lissen</string>
+    <string name="app_name" translatable="false">Tome</string>
     <string name="library_screen_library_title">Library</string>
     <string name="library_screen_continue_listening_title">Continue listening</string>
     <string name="library_screen_preferences_menu_item">Preferences</string>
@@ -37,7 +37,6 @@
     <string name="the_offline_library_is_empty">No saved books yet</string>
     <string name="audiobookshelf_server_is_required">Audiobookshelf server is required</string>
     <string name="no_internet_connection">No internet connection</string>
-    <string name="app_crach_toast">Sorry for the application crash\nLogs have been sent for analysis</string>
     <string name="playback_speed_title">Playback speed</string>
     <string name="color_scheme_follow_system">System</string>
     <string name="color_scheme_light">Light</string>
@@ -103,12 +102,11 @@
     <string name="notification_content_caching_title">Content is caching</string>
     <string name="notification_content_caching_error_title">Caching failed</string>
     <string name="notification_content_caching_error_description">A few files weren’t saved</string>
-    <string name="login_error_lissen_auth_scheme_must_be_whitelisted">The scheme %1$s://%2$s is not allowed in the server\'s redirect URI settings</string>
-    <string name="login_error_lissen_auth_failed">Could not authorize. Please check your server settings</string>
-    <string name="login_error_lissen_not_found">URL is not found. Check your Server settings</string>
+    <string name="book_finished_marker">Finished</string>
+    <string name="login_error_tome_auth_scheme_must_be_whitelisted">The scheme %1$s://%2$s is not allowed in the server\'s redirect URI settings</string>
+    <string name="login_error_tome_auth_failed">Could not authorize. Please check your server settings</string>
+    <string name="login_error_tome_not_found">URL is not found. Check your Server settings</string>
     <string name="login_screen_open_id_button">Connect with OpenID</string>
-    <string name="source_code_on_github_title">Source code on GitHub</string>
-    <string name="source_code_on_github_subtitle">Report issues or suggest improvements</string>
     <string name="settings_screen_library_ordering_title">Library sorting</string>
     <string name="settings_screen_library_ordering_title_option">Title</string>
     <string name="settings_screen_library_ordering_author_option">Author</string>
@@ -137,8 +135,6 @@
     <string name="playing_item_details_time_remaining">Time remaining</string>
     <string name="settings_screen_advanced_preferences_title">Advanced preferences</string>
     <string name="settings_screen_advanced_preferences_description">Control seeking, proxy headers, or sound</string>
-    <string name="settings_screen_crash_report_title">Crash reporting</string>
-    <string name="settings_screen_crash_report_description">Send reports if the app crashes</string>
     <string name="settings_screen_software_codecs_enabled_title">Force software decoding</string>
     <string name="settings_screen_software_codecs_enabled_description">Use software codecs for audio playback</string>
     <string name="settings_download_automatically_title">Download automatically</string>
@@ -188,7 +184,20 @@
     <string name="connection_settings_title">Connection preferences</string>
     <string name="connection_settings_description">Control server address, proxy, and SSL settings</string>
     <string name="disconnect_from_server_title">Disconnect from the server</string>
-    <string name="export_logs_title">Export logs</string>
-    <string name="export_logs_description">Share diagnostic data for troubleshooting</string>
-    <string name="export_logs_no_logs">No logs available</string>
+    <string name="connection_status_connected">Connected to server</string>
+    <string name="connection_status_disconnected">Disconnected from server</string>
+    <string name="library_tab_home">Home</string>
+    <string name="library_tab_books">Books</string>
+    <string name="library_tab_series">Series</string>
+    <string name="library_tab_search">Search</string>
+    <string name="library_tab_settings">Settings</string>
+    <string name="library_filters">Filters</string>
+    <string name="home_section_currently_listening">Currently Listening</string>
+    <string name="home_section_recently_added">Recently Added</string>
+    <string name="home_section_unplayed">Unplayed</string>
+    <string name="series_start_listening">Start Listening</string>
+    <string name="series_empty_title">No series found</string>
+    <string name="series_empty_description">Books with Audiobookshelf series metadata will appear here.</string>
+    <string name="series_podcast_title">Series are for audiobook libraries</string>
+    <string name="series_podcast_description">Switch to an audiobook library to browse your series.</string>
 </resources>
